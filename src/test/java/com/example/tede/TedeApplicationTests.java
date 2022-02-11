@@ -31,8 +31,7 @@ import oshi.util.FormatUtil;
 import oshi.util.Util;
 
 @SpringBootTest
-class SystemInfoTest {
-
+class TedeApplication{
     private static void printComputerSystem(final ComputerSystem computerSystem) {
         System.out.println("manufacturer: " + computerSystem.getManufacturer());
         System.out.println("model: " + computerSystem.getModel());
@@ -222,7 +221,7 @@ class SystemInfoTest {
         }
     }
     public static void main(String[] args) {
-        Logger LOG = LoggerFactory.getLogger(SystemInfoTest.class);
+        Logger LOG = LoggerFactory.getLogger(TedeApplication.class);
         LOG.info("Initializing System...");
         SystemInfo si = new SystemInfo();
         HardwareAbstractionLayer hal = si.getHardware();
