@@ -31,7 +31,7 @@ import oshi.util.FormatUtil;
 import oshi.util.Util;
 
 @SpringBootTest
-class TedeApplication{
+class TedeApplicationTests{
     private static void printComputerSystem(final ComputerSystem computerSystem) {
         System.out.println("manufacturer: " + computerSystem.getManufacturer());
         System.out.println("model: " + computerSystem.getModel());

@@ -1,0 +1,9 @@
+appid: exampleframrwork
+spring:
+  application:
+    name: exampleframrwork
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost/ry-vue
+server:
+  port: 9000
